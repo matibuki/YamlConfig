@@ -1,10 +1,12 @@
-package start;
+package basic;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,15 +26,20 @@ public class TestBase {
     }
 
     @BeforeEach
-    void setup() {
+    public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         logger.info("Browser has been opened");
     }
 
     @AfterEach
-    void tearDown() {
+    public void tearDown() {
         driver.quit();
         logger.info("WebDriver closed properly");
     }
+
+    public WebElement findElementByCss(String css) {
+        return getDriver().findElement(By.cssSelector(css));
+    }
+
 }
