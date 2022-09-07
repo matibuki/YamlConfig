@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="update#1">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
+    <list default="true" id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="update#3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormTests.formTest">
+  <component name="RunManager" selected="JUnit.TableTests.tableTest">
     <configuration name="AlertsTests.delayedAlertBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
@@ -70,22 +67,6 @@
       <option name="PACKAGE_NAME" value="basic" />
       <option name="MAIN_CLASS_NAME" value="basic.AlertsTests" />
       <option name="METHOD_NAME" value="delayedAlertBoxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTests.promptAlertBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PD9_basicwebelements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.AlertsTests" />
-      <option name="METHOD_NAME" value="promptAlertBoxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,13 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableTests.tableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PD9_basicwebelements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic" />
+      <option name="MAIN_CLASS_NAME" value="basic.TableTests" />
+      <option name="METHOD_NAME" value="tableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableTests.tableTest" />
         <item itemvalue="JUnit.FormTests.formTest" />
         <item itemvalue="JUnit.DownloadFileTest.downloadFile" />
         <item itemvalue="JUnit.IframeTests.iframeTest" />
         <item itemvalue="JUnit.AlertsTests.delayedAlertBoxTest" />
-        <item itemvalue="JUnit.AlertsTests.promptAlertBoxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662469869439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update#3">
+      <created>1662549672093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662549672093</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +185,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update#1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update#1" />
+    <MESSAGE value="update#3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update#3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/basic/TableTests.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/basic/TableTests.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
