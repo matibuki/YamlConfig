@@ -1,15 +1,15 @@
 package basic;
 
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
 public class Utils {
-    TestBase testBase = new TestBase();
-
+    TestBase new1 = new TestBase();
     public void mountainPrinting() {
-        List<WebElement> rows = testBase.getDriver().findElements(By.cssSelector("tbody tr"));
+        List<WebElement> rows = new1.getDriver().findElements(By.cssSelector("tbody tr"));
 
         for (WebElement row : rows) {
             String rank = row.findElements(By.cssSelector("th")).get(0).getText();

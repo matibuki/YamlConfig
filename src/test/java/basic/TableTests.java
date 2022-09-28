@@ -8,12 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TableTests extends TestBase {
-    Utils utils = new Utils();
     @Test
     public void tableTest() {
+        Utils utils = new Utils();
         getDriver().get(seleniumui+"/table.php");
         utils.mountainPrinting();
 
 
     }
-}
+    }
