@@ -22,6 +22,7 @@ import java.util.Random;
 public class TestBase {
     private static Logger logger = LoggerFactory.getLogger(TestBase.class);
     WebDriver driver;
+    public String seleniumui = "http://51.75.61.161:9102/";
 
     WebDriver getDriver() {
         return driver;
