@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="update#4">
+    <list default="true" id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DroppableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,81 +61,82 @@
       <recent name="basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TableTests.tableTest">
-    <configuration name="AlertsTests.promptAlertBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortableTests.sortableTests">
+    <configuration name="DraggableTests.draggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.AlertsTests" />
-      <option name="METHOD_NAME" value="promptAlertBoxTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.DraggableTests" />
+      <option name="METHOD_NAME" value="draggTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormTests.formTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DroppableTests.droppableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.FormTests" />
-      <option name="METHOD_NAME" value="formTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.DroppableTests" />
+      <option name="METHOD_NAME" value="droppableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResizableTests.resizableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.TableTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableTests.tableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PD9_basicwebelements" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.TableTests" />
-      <option name="METHOD_NAME" value="tableTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.ResizableTests" />
+      <option name="METHOD_NAME" value="resizableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsTests.windowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectableTests.selectableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.WindowsTests" />
-      <option name="METHOD_NAME" value="windowTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.SelectableTests" />
+      <option name="METHOD_NAME" value="selectableTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortableTests.sortableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PD9_basicwebelements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.SortableTests" />
+      <option name="METHOD_NAME" value="sortableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TableTests.tableTest" />
-        <item itemvalue="JUnit.TableTests" />
-        <item itemvalue="JUnit.WindowsTests.windowTest" />
-        <item itemvalue="JUnit.AlertsTests.promptAlertBoxTest" />
-        <item itemvalue="JUnit.FormTests.formTest" />
+        <item itemvalue="JUnit.SortableTests.sortableTests" />
+        <item itemvalue="JUnit.SelectableTests.selectableTests" />
+        <item itemvalue="JUnit.ResizableTests.resizableTests" />
+        <item itemvalue="JUnit.DraggableTests.draggTest" />
+        <item itemvalue="JUnit.DroppableTests.droppableTests" />
       </list>
     </recent_temporary>
   </component>

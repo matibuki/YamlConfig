@@ -2,7 +2,9 @@ package basic;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
@@ -24,5 +26,18 @@ public class Utils {
             }
 
         }
+    }
+
+    public void resize(WebElement element, int offsetX, int offsetY)
+    {
+        Dimension dimension = element.getSize();
+        System.out.println(dimension.getHeight());
+        System.out.println(dimension.getWidth());
+//        int width = element.getSize();
+        Actions action = new Actions(new1.getDriver());
+//        action.MoveToElement(element, width, 1);
+        action.clickAndHold().moveByOffset(offsetX, offsetY).release().perform();
+        System.out.println(dimension.getHeight());
+        System.out.println(dimension.getWidth());
     }
 }
