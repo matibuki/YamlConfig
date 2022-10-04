@@ -1,4 +1,4 @@
-package basic;
+package start;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
@@ -9,11 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,10 +19,10 @@ import java.util.Random;
 
 public class TestBase {
     private static Logger logger = LoggerFactory.getLogger(TestBase.class);
-    WebDriver driver;
+    public static WebDriver driver;
     public String seleniumui = "http://51.75.61.161:9102/";
 
-    WebDriver getDriver() {
+    public static WebDriver getDriver() {
         return driver;
     }
 

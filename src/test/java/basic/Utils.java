@@ -1,8 +1,8 @@
 package basic;
 
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import start.TestBase;
 
 import java.util.List;
 
