@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="update#4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/AccordionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/AutocompleteTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/DatePickerTests.java" afterDir="false" />
+    <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="update#5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DroppableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/start/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/MenuTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/ProgressbarTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/SelectMenuTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/SliderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/TooltipTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/AlertsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/start/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/AccordionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,31 +53,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/java/pages",
+    "last_opened_file_path": "C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mbukowski2\Documents\CUBE\frontendowetesty\ice-cube-cucumber-test-master\PD9_basicwebelements\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="start" />
+      <recent name="pages" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatePickerTests.lastJanNextYear">
-    <configuration name="AccordionTests.accordionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TooltipTests.sliderTest">
+    <configuration name="ModalTests.addNewUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.AccordionTests" />
-      <option name="METHOD_NAME" value="accordionTest" />
+      <option name="MAIN_CLASS_NAME" value="widgets.ModalTests" />
+      <option name="METHOD_NAME" value="addNewUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutocompleteTests.autocompleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModalTests.modalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.AutocompleteTests" />
-      <option name="METHOD_NAME" value="autocompleteTest" />
+      <option name="MAIN_CLASS_NAME" value="widgets.ModalTests" />
+      <option name="METHOD_NAME" value="modalTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePickerTests.datePickerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProgressbarTests.progressBarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +119,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
-      <option name="METHOD_NAME" value="datePickerTest" />
+      <option name="MAIN_CLASS_NAME" value="widgets.ProgressbarTests" />
+      <option name="METHOD_NAME" value="progressBarTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePickerTests.lastJanNextYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SliderTests.sliderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +135,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
-      <option name="METHOD_NAME" value="lastJanNextYear" />
+      <option name="MAIN_CLASS_NAME" value="widgets.SliderTests" />
+      <option name="METHOD_NAME" value="sliderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePickerTests.nextMonthFirstDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TooltipTests.sliderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +151,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
-      <option name="METHOD_NAME" value="nextMonthFirstDayTest" />
+      <option name="MAIN_CLASS_NAME" value="widgets.TooltipTests" />
+      <option name="METHOD_NAME" value="sliderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatePickerTests.lastJanNextYear" />
-        <item itemvalue="JUnit.DatePickerTests.nextMonthFirstDayTest" />
-        <item itemvalue="JUnit.DatePickerTests.datePickerTest" />
-        <item itemvalue="JUnit.AccordionTests.accordionTest" />
-        <item itemvalue="JUnit.AutocompleteTests.autocompleteTest" />
+        <item itemvalue="JUnit.TooltipTests.sliderTest" />
+        <item itemvalue="JUnit.SliderTests.sliderTest" />
+        <item itemvalue="JUnit.ProgressbarTests.progressBarTest" />
+        <item itemvalue="JUnit.ModalTests.addNewUserTest" />
+        <item itemvalue="JUnit.ModalTests.modalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,26 +224,5 @@
     <MESSAGE value="update#3" />
     <MESSAGE value="update#4" />
     <option name="LAST_COMMIT_MESSAGE" value="update#4" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgets/DatePickerTests.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgets/DatePickerTests.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="((RemoteWebElement)section).foundBy" custom="org.openqa.selenium.remote.RemoteWebElement" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

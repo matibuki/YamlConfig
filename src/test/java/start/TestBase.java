@@ -56,8 +56,6 @@ public class TestBase {
         return getDriver().findElement(By.cssSelector(css));
     }
 
-    public WebElement getRandomElement(List<WebElement> elements) {
-        return elements.get(new Random().nextInt(elements.size()));
-    }
+
 
 }

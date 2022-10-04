@@ -10,7 +10,7 @@ public class IframeTests extends TestBase {
 
     @Test
     public void iframeTest() {
-        getDriver().get("https://seleniumui.moderntester.pl/iframes.php");
+        getDriver().get(seleniumui + "/iframes.php");
         getDriver().switchTo().frame("iframe1");
         findElementByCss("#inputFirstName3").sendKeys("Mateusz");
         findElementByCss("#inputSurname3").sendKeys("Bukowski");

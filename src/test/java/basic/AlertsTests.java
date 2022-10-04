@@ -13,7 +13,7 @@ public class AlertsTests extends TestBase {
 
     @Test
     public void simpleAlertPopupTest() {
-        getDriver().get("https://seleniumui.moderntester.pl/alerts.php");
+        getDriver().get(seleniumui + "/alerts.php");
 
         WebElement button = findElementByCss("#simple-alert");
         button.click();
@@ -25,7 +25,7 @@ public class AlertsTests extends TestBase {
 
     @Test
     public void promptAlertBoxTest() {
-        getDriver().get("https://seleniumui.moderntester.pl/alerts.php");
+        getDriver().get(seleniumui + "/alerts.php");
 
         WebElement button = findElementByCss("#prompt-alert");
         button.click();
@@ -38,7 +38,7 @@ public class AlertsTests extends TestBase {
 
     @Test
     public void confirmAlertBoxTest() {
-        getDriver().get("https://seleniumui.moderntester.pl/alerts.php");
+        getDriver().get(seleniumui + "/alerts.php");
 
         WebElement button = findElementByCss("#confirm-alert");
 
@@ -53,7 +53,7 @@ public class AlertsTests extends TestBase {
 
     @Test
     public void delayedAlertBoxTest() {
-        getDriver().get("https://seleniumui.moderntester.pl/alerts.php");
+        getDriver().get(seleniumui + "/alerts.php");
 
         WebElement button = findElementByCss("#delayed-alert");
         button.click();

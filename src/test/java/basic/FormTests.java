@@ -1,10 +1,13 @@
 package basic;
+package
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import pages.FormPage;
 import start.TestBase;
+import start.Utils;
 
 import java.io.File;
 import java.util.List;
@@ -14,13 +17,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class FormTests extends TestBase {
     @Test
     public void formTest() throws InterruptedException {
-        getDriver().get("https://seleniumui.moderntester.pl/form.php");
-        findElementByCss("#inputFirstName3").sendKeys("Mateusz");
-        findElementByCss("#inputLastName3").sendKeys("Bukowski");
-        findElementByCss("#inputEmail3").sendKeys("mbukowski2@sii.pl");
+        getDriver().get(seleniumui + "/form.php");
 
-        List<WebElement> sex = getDriver().findElements(By.name("gridRadiosSex"));
-        getRandomElement(sex).click();
+        FormPage formPage = new FormPage(getDriver());
+//        Utils utils = new Utils();
+
+        formPage.fillFirstName("Mateusz");
+        formPage.fillLastName("Bukowski");
+        formPage.fillEmail("mbukowski2@sii.pl");
+        formPage.chooseGender("male");
 
         findElementByCss("#inputAge3").sendKeys("mbukowski2@sii.pl");
 

@@ -1,6 +1,5 @@
 package widgets;
 
-import basic.Utils;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,7 +9,6 @@ import start.TestBase;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 public class AccordionTests extends TestBase {
     @Test
