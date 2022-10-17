@@ -6,19 +6,16 @@ import start.TestBase;
 
 import java.util.ArrayList;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class WindowsTests extends TestBase {
-
 
     @Test
     public void windowTest() {
         TableTests tableTests = new TableTests();
-        getDriver().get(seleniumui+"/windows-tabs.php");
+        getDriver().get(seleniumui + "/windows-tabs.php");
 
         String winHandleBefore = driver.getWindowHandle();
         findElementByCss("#newBrowserWindow").click();
-        for (String winHandle : driver.getWindowHandles()){
+        for (String winHandle : driver.getWindowHandles()) {
             driver.switchTo().window(winHandle);
         }
         tableTests.tableTest();
@@ -26,7 +23,7 @@ public class WindowsTests extends TestBase {
 
         driver.switchTo().window(winHandleBefore);
         findElementByCss("#newMessageWindow").click();
-        for (String winHandle : driver.getWindowHandles()){
+        for (String winHandle : driver.getWindowHandles()) {
             driver.switchTo().window(winHandle);
         }
         System.out.println(getDriver().findElement(By.tagName("body")).getText());
@@ -34,11 +31,9 @@ public class WindowsTests extends TestBase {
 
         driver.switchTo().window(winHandleBefore);
         findElementByCss("#newBrowserTab").click();
-        ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+        ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
         tableTests.tableTest();
         driver.close();
-
-
     }
 }

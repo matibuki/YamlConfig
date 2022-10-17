@@ -4,8 +4,6 @@ import start.TestBase;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class SelectableTests extends TestBase {
     @Test
     public void selectableTests() {

@@ -16,11 +16,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ModalTests extends TestBase {
     @Test
     public void addNewUserTest() {
-        getDriver().get(seleniumui+"/modal-dialog.php");
+        getDriver().get(seleniumui + "/modal-dialog.php");
 
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
         wait.withTimeout(Duration.ofSeconds(10));
-
 
         getDriver().findElement(By.cssSelector("#create-user")).click();
         WebElement newWindow = getDriver().findElement(By.cssSelector(".ui-dialog"));
@@ -40,9 +39,6 @@ public class ModalTests extends TestBase {
             System.out.println(data.getText());
         }
 
-//        System.out.println(getDriver().findElement(By.xpath("//*/tbody/tr[2]")).getText());
         assertThat(getDriver().findElement(By.xpath("//*/tbody/tr[2]")).getText().contains("Elon Musk emusk@tesla.com TESTPASSWORD1"));
-
-
     }
 }

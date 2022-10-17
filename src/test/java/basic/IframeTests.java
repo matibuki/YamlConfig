@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 import start.TestBase;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class IframeTests extends TestBase {
 
     @Test

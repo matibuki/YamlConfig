@@ -14,10 +14,10 @@ import java.util.Date;
 public class HighSiteTests extends TestBase {
     @Test
     public void scrollTest() {
-//        getDriver().get("http://51.75.61.161:9102/high-site.php");
-//        Actions action = new Actions(driver);
-//        action.scrollToElement(getDriver().findElement(By.cssSelector("#scroll-button"))).perform();
-//        action.scrollByAmount(0,300).perform();
+        getDriver().get("http://51.75.61.161:9102/high-site.php");
+        Actions action = new Actions(driver);
+        action.scrollToElement(getDriver().findElement(By.cssSelector("#scroll-button"))).perform();
+        action.scrollByAmount(0,300).perform();
 //
 //        TakesScreenshot prntscrn = (TakesScreenshot) getDriver();
 //        File screen = prntscrn.getScreenshotAs(OutputType.FILE);

@@ -4,30 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="update#5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/DroppableTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/start/DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/MenuTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/ProgressbarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/SelectMenuTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/SliderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/TooltipTests.java" afterDir="false" />
+    <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="almost final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/AlertsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/start/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/AccordionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/start/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/AutocompleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/AutocompleteTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/java/pages",
-    "last_opened_file_path": "C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/java/pages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mbukowski2/Documents/CUBE/frontendowetesty/ice-cube-cucumber-test-master/PD9_basicwebelements/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mbukowski2\Documents\CUBE\frontendowetesty\ice-cube-cucumber-test-master\PD9_basicwebelements\src\main\resources" />
@@ -77,82 +68,82 @@
       <recent name="basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TooltipTests.sliderTest">
-    <configuration name="ModalTests.addNewUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortableTests.sortableTests">
+    <configuration name="DraggableTests.draggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.ModalTests" />
-      <option name="METHOD_NAME" value="addNewUserTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.DraggableTests" />
+      <option name="METHOD_NAME" value="draggTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModalTests.modalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DroppableTests.droppableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.ModalTests" />
-      <option name="METHOD_NAME" value="modalTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.DroppableTests" />
+      <option name="METHOD_NAME" value="droppableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressbarTests.progressBarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectableTests.selectableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.ProgressbarTests" />
-      <option name="METHOD_NAME" value="progressBarTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.SelectableTests" />
+      <option name="METHOD_NAME" value="selectableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SliderTests.sliderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortableTests.sortableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.SliderTests" />
-      <option name="METHOD_NAME" value="sliderTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.SortableTests" />
+      <option name="METHOD_NAME" value="sortableTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TooltipTests.sliderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowsTests.windowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.TooltipTests" />
-      <option name="METHOD_NAME" value="sliderTest" />
+      <option name="PACKAGE_NAME" value="basic" />
+      <option name="MAIN_CLASS_NAME" value="basic.WindowsTests" />
+      <option name="METHOD_NAME" value="windowTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,18 +151,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TooltipTests.sliderTest" />
-        <item itemvalue="JUnit.SliderTests.sliderTest" />
-        <item itemvalue="JUnit.ProgressbarTests.progressBarTest" />
-        <item itemvalue="JUnit.ModalTests.addNewUserTest" />
-        <item itemvalue="JUnit.ModalTests.modalTest" />
+        <item itemvalue="JUnit.SortableTests.sortableTests" />
+        <item itemvalue="JUnit.SelectableTests.selectableTests" />
+        <item itemvalue="JUnit.DroppableTests.droppableTests" />
+        <item itemvalue="JUnit.DraggableTests.draggTest" />
+        <item itemvalue="JUnit.WindowsTests.windowTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40426b13-b699-4808-abd6-ac593cce86c2" name="Changes" comment="" />
+      <changelist id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="almost final" />
       <created>1662460643349</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -205,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664382440839</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="almost final">
+      <created>1664887527865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664887527865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +221,7 @@
     <MESSAGE value="update#1" />
     <MESSAGE value="update#3" />
     <MESSAGE value="update#4" />
-    <option name="LAST_COMMIT_MESSAGE" value="update#4" />
+    <MESSAGE value="almost final" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost final" />
   </component>
 </project>

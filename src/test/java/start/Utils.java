@@ -6,13 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
-import java.util.Random;
-
 public class Utils {
-    TestBase new1 = new TestBase();
     DataProvider dataProvider = new DataProvider();
+
     public void mountainPrinting() {
-        List<WebElement> rows = new1.getDriver().findElements(By.cssSelector("tbody tr"));
+        List<WebElement> rows = TestBase.getDriver().findElements(By.cssSelector("tbody tr"));
 
         for (WebElement row : rows) {
             String rank = row.findElements(By.cssSelector("th")).get(0).getText();
@@ -23,25 +21,20 @@ public class Utils {
             String height = row.findElements(By.cssSelector("td")).get(3).getText();
 
             if (Integer.parseInt(height) > 4000 && state.contains("Switzerland")) {
-                System.out.println(rank +" "+ peak +" "+ range);
+                System.out.println(rank + " " + peak + " " + range);
             }
-
         }
     }
 
-    public void resize(WebElement element, int offsetX, int offsetY)
-    {
+    public void resize(WebElement element, int offsetX, int offsetY) {
         Dimension dimension = element.getSize();
         System.out.println(dimension.getHeight());
         System.out.println(dimension.getWidth());
-//        int width = element.getSize();
-        Actions action = new Actions(new1.getDriver());
-//        action.MoveToElement(element, width, 1);
+        Actions action = new Actions(TestBase.getDriver());
         action.clickAndHold().moveByOffset(offsetX, offsetY).release().perform();
         System.out.println(dimension.getHeight());
         System.out.println(dimension.getWidth());
     }
-
 
     public void createNewUser() {
         String name = dataProvider.setName();
@@ -49,10 +42,4 @@ public class Utils {
         String password = dataProvider.setPassword();
 
     }
-
-    public WebElement getRandomElement(List<WebElement> elements) {
-        return elements.get(new Random().nextInt(elements.size()));
-    }
-
-
 }
