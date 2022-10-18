@@ -11,9 +11,9 @@ public class FormTests extends TestBase {
     public void formTest() throws InterruptedException {
         getDriver().get(seleniumui + "/form.php");
 
-        FormPage formPage = new FormPage(getDriver());
+        FormPage formPage = new FormPage(driver);
 
-        formPage.fillFirstName("Mateusz");
+        formPage.fillFirstName(testData.get("firstName"));
         formPage.fillLastName("Bukowski");
         formPage.fillEmail("mbukowski2@sii.pl");
         formPage.chooseGender("male");
