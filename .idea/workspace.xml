@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="almost final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/IframeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/TableTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/WindowsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/ResizableTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/SelectableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interactions/SortableTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/others/HighSiteTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/start/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/start/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/AutocompleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/AutocompleteTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/ModalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/DatePickerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/DatePickerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/widgets/SelectMenuTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/widgets/SelectMenuTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,82 +60,82 @@
       <recent name="basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortableTests.sortableTests">
-    <configuration name="DraggableTests.draggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatePickerTests.randomDayFromLastYearTest">
+    <configuration name="DatePickerTests.lastJanNextYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactions.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.DraggableTests" />
-      <option name="METHOD_NAME" value="draggTest" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
+      <option name="METHOD_NAME" value="lastJanNextYear" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroppableTests.droppableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePickerTests.nextMonthFirstDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactions.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.DroppableTests" />
-      <option name="METHOD_NAME" value="droppableTests" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
+      <option name="METHOD_NAME" value="nextMonthFirstDayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectableTests.selectableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePickerTests.randomDayFromLastYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactions.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.SelectableTests" />
-      <option name="METHOD_NAME" value="selectableTests" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
+      <option name="METHOD_NAME" value="randomDayFromLastYearTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortableTests.sortableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePickerTests.randomDayFromPreviousMonthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactions.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.SortableTests" />
-      <option name="METHOD_NAME" value="sortableTests" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
+      <option name="METHOD_NAME" value="randomDayFromPreviousMonthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsTests.windowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePickerTests.todayDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD9_basicwebelements" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basic" />
-      <option name="MAIN_CLASS_NAME" value="basic.WindowsTests" />
-      <option name="METHOD_NAME" value="windowTest" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePickerTests" />
+      <option name="METHOD_NAME" value="todayDateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortableTests.sortableTests" />
-        <item itemvalue="JUnit.SelectableTests.selectableTests" />
-        <item itemvalue="JUnit.DroppableTests.droppableTests" />
-        <item itemvalue="JUnit.DraggableTests.draggTest" />
-        <item itemvalue="JUnit.WindowsTests.windowTest" />
+        <item itemvalue="JUnit.DatePickerTests.randomDayFromLastYearTest" />
+        <item itemvalue="JUnit.DatePickerTests.randomDayFromPreviousMonthTest" />
+        <item itemvalue="JUnit.DatePickerTests.lastJanNextYear" />
+        <item itemvalue="JUnit.DatePickerTests.nextMonthFirstDayTest" />
+        <item itemvalue="JUnit.DatePickerTests.todayDateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,5 +215,31 @@
     <MESSAGE value="update#4" />
     <MESSAGE value="almost final" />
     <option name="LAST_COMMIT_MESSAGE" value="almost final" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/interactions/DraggableTests.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -18,27 +18,43 @@ public class SelectMenuTests extends TestBase {
         WebElement speedDropdown = getDriver().findElement(By.cssSelector("#speed-button"));
         speedDropdown.click();
 
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
-        wait.withTimeout(Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(3));
+        wait.withTimeout(Duration.ofSeconds(3));
 
-        wait.until(ExpectedConditions.elementToBeSelected(By.cssSelector("#ui-id-1")));
+        wait.until(ExpectedConditions.visibilityOf(getDriver().findElement(By.cssSelector("#ui-id-1"))));
 
-        List<WebElement> speedList = getDriver().findElements(By.cssSelector("#speed-button span[class='ui-selectmenu-text"));
+        List<WebElement> speedList = getDriver().findElements(By.cssSelector("li.ui-menu-item"));
 
         Random random = new Random();
         int randomOption = random.nextInt(speedList.size());
-        String selector = "ui-id-" + randomOption;
-        getDriver().findElement(By.cssSelector(selector)).click();
+        speedList.get(randomOption).click();
 
-        WebElement filesDropdown = getDriver().findElement(By.cssSelector(".#files-button"));
+        WebElement filesDropdown = getDriver().findElement(By.cssSelector("#files-button"));
         filesDropdown.click();
+        wait.until(ExpectedConditions.visibilityOf(getDriver().findElement(By.cssSelector("#ui-id-8"))));
 
-        wait.until(ExpectedConditions.elementToBeSelected(By.cssSelector("#ui-id-8")));
-        List<WebElement> fileList = getDriver().findElements(By.cssSelector("#files-button span[class='ui-selectmenu-text"));
-//        for (WebElement option : fileList) {
-//            clickOnOptionByText(option,"jQuery.js");
-//        }
+        List<WebElement> fileList = getDriver().findElements(By.cssSelector(".ui-menu-item-wrapper"));
+        for (WebElement elementToClick : fileList) {
+            if (elementToClick.getText().equals("Some unknown file")) {
+                elementToClick.click();
+            }
+        }
 
+        WebElement numberDropdown = getDriver().findElement(By.cssSelector("#number-button"));
+        numberDropdown.click();
+        wait.until(ExpectedConditions.visibilityOf(getDriver().findElement(By.cssSelector("#ui-id-10"))));
+
+        List<WebElement> numberList = getDriver().findElements(By.cssSelector(".ui-menu-item-wrapper"));
+        numberList.get(11).click();
+
+        WebElement titleDropdown = getDriver().findElement(By.cssSelector("#salutation-button"));
+        titleDropdown.click();
+        wait.until(ExpectedConditions.visibilityOf(getDriver().findElement(By.cssSelector("#salutation-menu li[class='ui-menu-item'] div"))));
+
+        List<WebElement> titleList = getDriver().findElements(By.cssSelector("#salutation-button span[class='ui-selectmenu-text']"));
+        int randomOptionTitle = random.nextInt(titleList.size());
+
+        titleList.get(randomOptionTitle).click();
 
     }
 }
