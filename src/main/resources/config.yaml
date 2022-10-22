@@ -11,12 +11,9 @@ environments:
       validation: Form send with success
       age: 30
 
-
-
-
   prod:
     browser:
-      browserName: chrome
+      browserName: firefox
       appUrl: http://51.75.61.161:9102/form.php
     testData:
       firstName: Jane

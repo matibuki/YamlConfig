@@ -6,6 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.ie.InternetExplorerOptions;
 
 public class BrowserFactory extends Browser {
     // logger
@@ -34,6 +38,21 @@ public class BrowserFactory extends Browser {
                 driver = new ChromeDriver(optionsChrome);
                 driver.get(appUrl);
                 break;
-
-
+            case "firefox":
+                FirefoxOptions optionsFirefox = new FirefoxOptions();
+                WebDriverManager.firefoxdriver().setup();
+                optionsFirefox.addArguments("start-maximized");
+                driver = new FirefoxDriver(optionsFirefox);
+                driver.get(appUrl);
+                break;
+            default:
+                InternetExplorerOptions optionsdefault = new InternetExplorerOptions();
+                WebDriverManager.iedriver().setup();
+                driver = new InternetExplorerDriver(optionsdefault);
+                driver.get(appUrl);
+        }
+        this.driver=driver;
+        return this.driver;
+    }
 }
+
