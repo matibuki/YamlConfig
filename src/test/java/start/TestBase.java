@@ -2,6 +2,7 @@ package start;
 
 import configuration.factory.BrowserFactory;
 import configuration.factory.EnvironmentFactory;
+import configuration.models.Browser;
 import configuration.models.Environment;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
@@ -22,11 +23,12 @@ public class TestBase {
     private static Logger logger = LoggerFactory.getLogger(TestBase.class);
     protected static WebDriver driver;
 
+    private static Browser browser;
     private static BrowserFactory browserFactory;
+    public static Environment environment;
+//    private static EnvironmentFactory environmentFactory;
 
-    private static Environment environment;
-
-    protected HashMap<String, Object> testData = environment.getUser();
+    protected HashMap<String, Object> testData = environment.getData();
 
     @BeforeAll
     static void setupDriver() {
@@ -40,7 +42,7 @@ public class TestBase {
         driver.quit();
         logger.info("WebDriver closed properly");
     }
-    public static EnvironmentFactory getEnvironment() {
-        return environment;
-    }
+//    public static EnvironmentFactory getEnvironment() {
+//        return environment;
+//    }
 }

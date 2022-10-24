@@ -16,13 +16,13 @@ public class YamlReader {
 
     private static Logger log = LoggerFactory.getLogger("YamlReader.class");
 
-    private Config config;
+    public Config config;
 
     public YamlReader() {
         try {
             ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
             this.config = mapper.readValue(new File("src/main/resources/config.yaml"), Config.class);
-            log.info("<<<<<<<<<<<<<<<<<<<Config yaml file has been read");
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
 

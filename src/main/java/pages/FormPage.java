@@ -4,17 +4,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-import java.io.File;
 import java.util.List;
-import java.util.Random;
 
-import org.openqa.selenium.support.ui.Select;
-
-public class FormPage {
+public class FormPage extends BasePage{
     public FormPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(id = "inputFirstName3")
@@ -75,7 +69,7 @@ public class FormPage {
 //        this.firstNameInput.sendKeys(firstName);
 //    }
     public void fillFirstName(Object firstName) {
-        this.firstNameInput.sendKeys((CharSequence) firstName);
+        this.firstNameInput.sendKeys(((CharSequence) firstName));
     }
 
     public void fillLastName(Object lastName) {

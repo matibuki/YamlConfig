@@ -1,27 +1,25 @@
 package configuration.models;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import configuration.factory.EnvironmentFactory;
-
 import java.util.HashMap;
 
-public class Environment extends EnvironmentFactory {
+public class Environment {
+    private Browser browser;
+    private HashMap<String, Object> data = new HashMap<>();
+
+    public void setBrowser(Browser browser) {
+        this.browser = browser;
+    }
+    public void setData(HashMap<String, Object> data) {
+        this.data = data;
+    }
+    public void setData(String key, Object value) {
+        data.put(key,value);
+    }
+
     public Browser getBrowser() {
         return browser;
     }
-
-    private Browser browser;
-
-    private HashMap<String, Object> user = new HashMap<>();
-
-    @JsonAnySetter
-    void setUser(String key, Object value) {
-        user.put(key, value);
-    }
-
-    @JsonAnyGetter
-    public HashMap<String, Object> getUser() {
-        return user;
+    public HashMap<String, Object> getData() {
+        return data;
     }
 }
