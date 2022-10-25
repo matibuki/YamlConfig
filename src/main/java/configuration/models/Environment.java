@@ -12,9 +12,9 @@ public class Environment {
     public void setData(HashMap<String, Object> data) {
         this.data = data;
     }
-    public void setData(String key, Object value) {
-        data.put(key,value);
-    }
+//    public void setData(String key, Object value) {
+//        data.put(key,value);
+//    }
 
     public Browser getBrowser() {
         return browser;

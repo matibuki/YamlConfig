@@ -23,18 +23,19 @@ public class TestBase {
     private static Logger logger = LoggerFactory.getLogger(TestBase.class);
     protected static WebDriver driver;
 
-    private static Browser browser;
+//    private static Browser browser;
     private static BrowserFactory browserFactory;
     public static Environment environment;
-//    private static EnvironmentFactory environmentFactory;
+    private static EnvironmentFactory environmentFactory;
 
-    protected HashMap<String, Object> testData = environment.getData();
+
 
     @BeforeAll
     static void setupDriver() {
         environment = EnvironmentFactory.getInstance();
         browserFactory = new BrowserFactory(environment.getBrowser());
         driver = browserFactory.getDriver();
+        logger.info("Webdriver started successfully");
     }
 
     @AfterEach
@@ -42,6 +43,7 @@ public class TestBase {
         driver.quit();
         logger.info("WebDriver closed properly");
     }
+    protected HashMap<String, Object> testData = environment.getData();
 //    public static EnvironmentFactory getEnvironment() {
 //        return environment;
 //    }

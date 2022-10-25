@@ -15,11 +15,11 @@ public class BrowserFactory {
     private String browserName;
     private String appUrl;
     private WebDriver driver;
-    private Browser browser;
+//    private Browser browser;
     /// STATIC ??????????
 
     public BrowserFactory(Browser browser) {
-        this.browser = browser;
+//        this.browser = browser;
         this.browserName = browser.getBrowserName();
         this.appUrl = browser.getAppUrl();
     }
@@ -44,7 +44,7 @@ public class BrowserFactory {
                 WebDriverManager.iedriver().setup();
                 driver = new InternetExplorerDriver(optionsdefault);
         }
-        driver.get(browser.getAppUrl());
+        driver.get(appUrl);
         this.driver=driver;
         return this.driver;
     }
