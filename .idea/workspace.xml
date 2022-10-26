@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="update yaml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/PropertyStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configuration/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/factory/EnvironmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/EnvironmentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/reader/YamlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/reader/YamlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/start/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666642128074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update yaml">
+      <created>1666677364333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666677364333</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

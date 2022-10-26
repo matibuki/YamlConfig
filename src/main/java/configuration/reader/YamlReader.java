@@ -14,27 +14,23 @@ import java.io.IOException;
 
 public class YamlReader {
 
-    private static Logger log = LoggerFactory.getLogger("YamlReader.class");
+    private static Logger logger = LoggerFactory.getLogger("YamlReader.class");
 
-    public Config config;
+    public static Config config;
+
+    public Config getConfig() {
+        return config;
+    }
 
     public YamlReader() {
         try {
             ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
             this.config = mapper.readValue(new File("src/main/resources/config.yaml"), Config.class);
+            logger.info("YAML properties file loaded");
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-
-        } catch (StreamReadException e) {
-            e.printStackTrace();
-        } catch (DatabindException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public Config getConfig() {
-        return config;
-    }
+
 }

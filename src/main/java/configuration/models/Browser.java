@@ -1,23 +1,23 @@
 package configuration.models;
 
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class Browser {
-    public void setBrowserName(String browserName) {
-        this.browserName = browserName;
+    Map<String, Object> properties = new LinkedHashMap<>();
+
+    @JsonAnySetter
+    void setBrowserProperties(String key, Object value) {
+        properties.put(key, value);
     }
 
-    public void setAppUrl(String appUrl) {
-        this.appUrl = appUrl;
+    @JsonAnyGetter
+    public Map<String, Object> getBrowserProperties() {
+        return properties;
     }
 
-    private String browserName;
-    private String appUrl;
-
-
-    public String getBrowserName() {
-        return browserName;
-    }
-
-    public String getAppUrl() {
-        return appUrl;
-    }
 }
+

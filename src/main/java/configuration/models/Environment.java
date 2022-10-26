@@ -1,25 +1,24 @@
 package configuration.models;
 
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import configuration.factory.EnvironmentFactory;
+
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Environment {
-    private Browser browser;
-    private HashMap<String, Object> data = new HashMap<>();
+    Map<String, EnvironmentFactory> environments = new LinkedHashMap<>();
 
-    public void setBrowser(Browser browser) {
-        this.browser = browser;
+    @JsonAnySetter
+    void setEnvironment(String key, EnvironmentFactory environmentFactory) {
+        environments.put(key, environmentFactory);
     }
-    public void setData(HashMap<String, Object> data) {
-        this.data = data;
-    }
-//    public void setData(String key, Object value) {
-//        data.put(key,value);
-//    }
 
-    public Browser getBrowser() {
-        return browser;
-    }
-    public HashMap<String, Object> getData() {
-        return data;
+    @JsonAnyGetter
+    public List<EnvironmentFactory> getEnvironments() {
+        return environments.values().stream().toList();
     }
 }

@@ -9,43 +9,37 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class BrowserFactory {
-    // logger
+    static Logger logger = LoggerFactory.getLogger(BrowserFactory.class);
     private String browserName;
-    private String appUrl;
     private WebDriver driver;
-//    private Browser browser;
-    /// STATIC ??????????
-
-    public BrowserFactory(Browser browser) {
-//        this.browser = browser;
-        this.browserName = browser.getBrowserName();
-        this.appUrl = browser.getAppUrl();
-    }
 
     public WebDriver getDriver() {
-        WebDriver driver;
-        switch (this.browserName) {
+        this.browserName = System.getProperty("browserName");
+        switch (browserName) {
             case "chrome":
                 ChromeOptions optionsChrome = new ChromeOptions();
                 WebDriverManager.chromedriver().setup();
                 optionsChrome.addArguments("start-maximized");
                 driver = new ChromeDriver(optionsChrome);
+                logger.info("CHROME driver loaded");
                 break;
             case "firefox":
                 FirefoxOptions optionsFirefox = new FirefoxOptions();
                 WebDriverManager.firefoxdriver().setup();
                 optionsFirefox.addArguments("start-maximized");
                 driver = new FirefoxDriver(optionsFirefox);
+                logger.info("FIREFOX driver loaded");
                 break;
             default:
-                InternetExplorerOptions optionsdefault = new InternetExplorerOptions();
+                InternetExplorerOptions optionsDefault = new InternetExplorerOptions();
                 WebDriverManager.iedriver().setup();
-                driver = new InternetExplorerDriver(optionsdefault);
+                driver = new InternetExplorerDriver(optionsDefault);
+                logger.info("IE driver loaded");
         }
-        driver.get(appUrl);
-        this.driver=driver;
         return this.driver;
     }
 }

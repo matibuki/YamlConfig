@@ -1,34 +1,22 @@
 package configuration.factory;
 
-import configuration.models.Config;
-import configuration.models.Environment;
-import configuration.reader.YamlReader;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class EnvironmentFactory {
-    private static Logger log = LoggerFactory.getLogger(EnvironmentFactory.class);
-    public static Environment getInstance() {
-        return EnvironmentFactory.EnvironmentPropertySingleton.INSTANCE;
+    boolean active;
+    public boolean isActive() {
+        return active;
+    }
+    Map<String, Object> properties = new LinkedHashMap<>();
+
+    @JsonAnySetter
+    void setProperties(String key, Object value) {
+        properties.put(key, value);
     }
 
-    private static class EnvironmentPropertySingleton {
-        private static final Environment INSTANCE = loadConfig();
-    }
-
-    public static Environment loadConfig() {
-
-        YamlReader yamlReader = new YamlReader();
-        Config config = yamlReader.getConfig();
-
-        try {
-            String activeEnvironment = config.getActiveEnvironment();
-
-            return config.getEnvironments().get(activeEnvironment);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
+    @JsonAnyGetter
+    public Map<String, Object> getProperties() { return properties; }
 }

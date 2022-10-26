@@ -1,23 +1,20 @@
-activeEnvironment: test
-environments:
+browser:
+  browserName: chrome
+environment:
   test:
-    browser:
-      browserName: chrome
-      appUrl: http://51.75.61.161:9102/form.php
-    testData:
-      firstName: Mateusz
-      lastName: Bukowski
-      email: mbukowski2@sii.pl
-      validation: Form send with success
-      age: 30
+    active: true
+    url: http://51.75.61.161:9102/form.php
+    firstName: Mateusz
+    lastName: Bukowski
+    email: mbukowski2@sii.pl
+    validation: Form send with success
+    age: 30
 
   prod:
-    browser:
-      browserName: firefox
-      appUrl: http://51.75.61.161:9102/form.php
-    testData:
-      firstName: Jane
-      lastName: Doe
-      email: jane@doe.com
-      validation: Form send with success
-      age: 20
+    active: false
+    url: http://51.75.61.161:9102/form.php
+    firstName: Mateusz
+    lastName: Bukowski
+    email: mbukowski2@sii.pl
+    validation: Form send with success
+    age: 30

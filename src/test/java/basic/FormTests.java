@@ -12,8 +12,8 @@ public class FormTests extends TestBase {
 
         FormPage formPage = new FormPage(driver);
 
-        formPage.fillFirstName(testData.get("firstName"));
-        formPage.fillLastName(testData.get("lastName"));
+        formPage.fillFirstName(System.getProperty("firstName"));
+        formPage.fillLastName(System.getProperty("lastName"));
 //        formPage.fillEmail("mbukowski2@sii.pl");
 //        formPage.chooseGender("male");
 //        formPage.fillAge("31");
