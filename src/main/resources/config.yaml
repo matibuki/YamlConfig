@@ -2,7 +2,8 @@ browser:
   browserName: chrome
 environment:
   test:
-    active: true
+    envName: test
+    active: false
     url: http://51.75.61.161:9102/form.php
     firstName: Mateusz
     lastName: Bukowski
@@ -11,7 +12,8 @@ environment:
     age: 30
 
   prod:
-    active: false
+    envName: prod
+    active: true
     url: http://51.75.61.161:9102/form.php
     firstName: Mateusz
     lastName: Bukowski

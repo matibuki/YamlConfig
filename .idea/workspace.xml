@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="update yaml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/PropertyStore.java" afterDir="false" />
+    <list default="true" id="0229b5f4-d841-4188-bf9f-74afb4194c7a" name="Changes" comment="final yaml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/factory/EnvironmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/EnvironmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/models/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/models/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/reader/YamlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/reader/YamlReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/factory/PropertyStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/factory/PropertyStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/FormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/start/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/start/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666677364333</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final yaml">
+      <created>1666764184185</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666764184185</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +256,8 @@
     <MESSAGE value="almost final" />
     <MESSAGE value="ok this is final" />
     <MESSAGE value="update yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update yaml" />
+    <MESSAGE value="final yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="final yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

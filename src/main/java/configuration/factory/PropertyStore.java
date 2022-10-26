@@ -37,6 +37,7 @@ public class PropertyStore {
                     System.setProperty(entry.getKey().toString(), entry.getValue().toString());
                     logger.info("Environment properties loaded");
                 }
+                logger.info("Environment = " + System.getProperty("envName"));
                 break;
             }
         }
