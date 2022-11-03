@@ -30,8 +30,7 @@ public class BrowserFactory {
             case "firefox":
                 FirefoxOptions optionsFirefox = new FirefoxOptions();
                 WebDriverManager.firefoxdriver().setup();
-                optionsFirefox.addArguments("start-maximized");
-                driver = new FirefoxDriver(optionsFirefox);
+                driver = new FirefoxDriver();
                 logger.info("FIREFOX driver loaded");
                 break;
             default:
