@@ -31,6 +31,7 @@ public class BrowserFactory {
                 FirefoxOptions optionsFirefox = new FirefoxOptions();
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
+                driver.manage().window().maximize();
                 logger.info("FIREFOX driver loaded");
                 break;
             default:
